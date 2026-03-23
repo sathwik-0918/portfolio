@@ -38,13 +38,13 @@
         color: lavender;
         font-size: 1.01rem;
       }
-      main hr{
+      main hr {
         border: 0;
         background-color: rgb(162, 91, 230);
         height: 1px;
         margin: 50px 80px;
       }
-      
+
       .left {
         font-size: 1.5rem;
       }
@@ -67,20 +67,102 @@
       .purple {
         color: rgb(149, 63, 230);
       }
-      .text-gray{
+      .text-gray {
         color: gray;
       }
       #element {
         color: rgb(149, 63, 230);
       }
-      .secondSection{
+      .secondSection {
         max-width: 80vw;
         margin: auto;
+        height: 80vh;
       }
-      .secondSection h1{
+      .secondSection h1 {
         font-size: 1.9rem;
       }
-      
+      .secondSection .box {
+        background: white;
+        width: 82vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 155px;
+      }
+
+      .image-top {
+        width: 23;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 85px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 13px;
+      }
+      .repo {
+        position: relative;
+        top: 86px;
+        color: white;
+        width: 150px;
+        list-style: none;
+      }
+      .link {
+        text-decoration: none;
+        color: whitesmoke;
+      }
+      .newtab {
+        width: 15px;
+        position: relative;
+        top: 3px;
+      }
+      footer {
+        background-color: rgb(18, 18, 62);
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      footer .footer-first{
+        font-size: large;
+      }
+
+      .footer ul{
+        list-style: none;
+      }
+      .footer li{
+        padding: 3px;
+      }
+      .footer li a{
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer >div{
+        width: 163px;
+      }
+
+
+      footer .footer-rights{
+        text-align: center;
+        color:grey;
+        padding: 40px 0;
+      }
     </style>
   </head>
   <body>
@@ -91,7 +173,6 @@
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/">About</a></li>
-            <li><a href="/">Services</a></li>
             <li><a href="/">Projects</a></li>
             <li><a href="/">Contact</a></li>
           </ul>
@@ -102,19 +183,129 @@
     <main>
       <section class="firstSection">
         <div class="leftSection">
-          <h5>Hi, My name is <span class="purple">Sathwik</span> and I am a
-          passionate <span id="element"></span></h5>
+          <h5>
+            Hi, My name is <span class="purple">Sathwik</span> and I am a
+            passionate <span id="element"></span>
+          </h5>
         </div>
         <div class="rightSection">
           <img src="bg.png" alt="" />
         </div>
       </section>
-      <hr>
+      <hr />
       <section class="secondSection">
         <span class="text-gray">What I have done so far</span>
-        <h1>Work Experience</h1>
+        <h1>My Projects</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Blog Application</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut illum
+              expedita, quaerat praesentium sequi adipisci ducimus. Aut
+              necessitatibus molestias quae laboriosam, deleniti quo.
+            </div>
+            <div>
+              <ul class="repo">
+                <li>
+                  <a
+                    class="link"
+                    href="https://github.com/sathwik-0918/blog-application"
+                    >Github Repository
+                    <img src="newtab.png" alt="" class="newtab"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Chatify Application</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut illum
+              expedita, quaerat praesentium sequi adipisci ducimus. Aut
+              necessitatibus molestias quae laboriosam, deleniti quo.
+            </div>
+            <div>
+              <ul class="repo">
+                <li>
+                  <a class="link" href="https://github.com/sathwik-0918/chatify"
+                    >Github Repository
+                    <img src="newtab.png" alt="" class="newtab"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Weather Application</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut illum
+              expedita, quaerat praesentium sequi adipisci ducimus. Aut
+              necessitatibus molestias quae laboriosam, deleniti quo.
+            </div>
+            <div>
+              <ul class="repo">
+                <li>
+                  <a
+                    class="link"
+                    href="https://github.com/sathwik-0918/Weather-App"
+                    >Github Repository
+                    <img src="newtab.png" alt="" class="newtab"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="" />
+            <div class="vertical-title">Laptop Personal Assistant</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut illum
+              expedita, quaerat praesentium sequi adipisci ducimus. Aut
+              necessitatibus molestias quae laboriosam
+            </div>
+            <div>
+              <ul class="repo">
+                <li>
+                  <a
+                    class="link"
+                    href="https://github.com/sathwik-0918/Mega_Project_1-Alexa"
+                    >Github Repository
+                    <img src="newtab.png" alt="" class="newtab"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">Sathwik's Developer Portfolio</div>
+        <div class="footer-second">
+          <ul class="footer-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Contack Info</li>
+            <li>sathwikvojjala300@gmail.com</li>
+            <li>+91 9989056381</li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyright&#169; sathwiksportfolio.com | All rights reserved
+      </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
